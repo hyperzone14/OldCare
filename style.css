@@ -1,0 +1,145 @@
+.container-header {
+    /*box-sizing: border-box;*/
+    font-family: 'TT Firs Neue Bold', sans-serif;
+    display: block;
+    margin: 0;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 1rem;
+}
+
+.nav-upper-items-header {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Add this line  */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .nav-upper-items-header a{
+    color: black;
+}
+
+header nav:nth-child(1) nav:nth-child(1) a{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrap-list-items {
+    display: flex;
+}
+
+header nav:nth-child(1) nav:nth-child(1) {
+    padding: 0 50px;
+}
+
+header nav:nth-child(1) nav:nth-child(2) {
+    
+    padding: 0 calc((100% - 1100px)/2);
+    display: flex;
+}
+
+header nav:nth-child(1) .header-upper-button {
+    justify-content: end;
+    padding: 0 61px;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 2rem;
+    font-size: 15px;
+}
+
+header nav:nth-child(1) nav:nth-child(2) .wrap-list-items li:nth-child(n){
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.nav-lower-items-header {
+    display: flex;
+    padding: 35px 30px 15px;
+}
+
+.nav-information {
+    padding-top: 70px;
+}
+
+header .nav-lower-items-header .nav-information .wrap-list-names div:nth-child(1) {
+    font-weight: bold;
+    font-size: 40px;
+}
+header .nav-lower-items-header .nav-information .wrap-list-names div:nth-child(2) {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+}
+header .nav-lower-items-header .nav-information .wrap-list-names div:nth-child(3) {
+    margin-top: 15px;
+    color: #929292;
+}
+
+header nav:nth-child(2) nav:nth-child(1) .optional-button-div {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 46px;
+} 
+
+.header-lower-button {
+    border: none;
+    background-color: #0067ff;
+    padding: 12px;
+    border-radius: 2rem;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.div-rating {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.div-rating img {
+    height: 20px;
+}
+
+.div-rating span {
+    margin-left: 5px;
+}
+
+.div-rating span a {
+    color: #0452eb;
+    text-decoration: underline;
+}
+
+.nav-lower-items-header .img-logo img {
+    display: flex;
+    padding-right: 100px;
+    width: 550px;
+}
+
+.div-sponsor-logo {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    background-color: #0067ff;
+}
+
+.div-sponsor-logo img{
+    width: 150px;
+    height: 50px;
+    padding: 0 80px;
+}
+
